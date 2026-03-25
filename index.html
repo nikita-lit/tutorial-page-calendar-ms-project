@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiirjuhend: Kuidas lisada uus kalender Microsoft Projectis</title>
+    <meta name="description"
+        content="Põhjalik juhend Microsoft Projectis uue kalendri loomiseks, kohandamiseks ja määramiseks. Järgi neid lihtsaid samme paremaks projektijuhtimiseks.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon (placeholder/standard) -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
+</head>
+
+<body>
+
+    <header class="container reveal">
+        <span class="hero-subtitle">Samm-sammuline juhend</span>
+        <h1 id="main-title">Uue kalendri lisamine <br>MS Projectis</h1>
+        <p class="hero-desc">Tõhus projektijuhtimine algab õigest ajastamisest. Õpi looma oma projekti kalendrit vaid mõne
+            minutiga.</p>
+    </header>
+
+    <main class="container">
+        <div class="steps-grid">
+            <!-- Step 1 -->
+            <article class="step-card reveal delay-1" id="step-1">
+                <span class="step-number">01</span>
+                <h3><i class="fa-solid fa-gear"></i> Juurdepääs seadetele</h3>
+                <div class="step-content">
+                    <p>Ava oma MS Project ja liigu projekti konfigureerimise juurde:</p>
+                    <ul>
+                        <li>Mine <b>Project</b> vahekaardile peamisel ribal.</li>
+                        <li>Klõpsa <b>Properties</b> grupis nupule <b>Change Working Time</b>.</li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="1.png" alt="MS Projecti lint, mis näitab nuppu Change Working Time">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 2 -->
+            <article class="step-card reveal delay-2" id="step-2">
+                <span class="step-number">02</span>
+                <h3><i class="fa-solid fa-plus-circle"></i> Loo uus kalender</h3>
+                <div class="step-content">
+                    <p>Ära piirdu vaid vaikimisi seadetega; loo kalender, mis vastab just sinu vajadustele:</p>
+                    <ul>
+                        <li>Klõpsa nupule <b>Create New Calendar...</b>.</li>
+                        <li>Sisesta oma uuele kalendrile unikaalne nimi.</li>
+                        <li>Vali kas alustada nullist või valik <b>Make a copy of</b>, et kopeerida olemasolev kalender.
+                        </li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="2.png" alt="Create New Base Calendar dialoog">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 3 -->
+            <article class="step-card reveal delay-3" id="step-3">
+                <span class="step-number">03</span>
+                <h3><i class="fa-solid fa-umbrella-beach"></i> Lisa erandid</h3>
+                <div class="step-content">
+                    <p>Arvesta pühade, hooldustööde või muude eriliste puhkepäevadega:</p>
+                    <ul>
+                        <li>Vali vahekaart <b>Exceptions</b>.</li>
+                        <li>Sisesta puhkuse nimi (nt "Puhkuste aeg").</li>
+                        <li>Vali perioodi algus- (<b>Start</b>) ja lõppkuupäev (<b>Finish</b>).</li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="3.png" alt="Exceptions ja tööaja üksikasjad">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 4 -->
+            <article class="step-card reveal delay-4" id="step-4">
+                <span class="step-number">04</span>
+                <h3><i class="fa-solid fa-check-double"></i> Lõplik määramine</h3>
+                <div class="step-content">
+                    <p>Ühenda oma uus kalender projekti ülesannete ja ressurssidega:</p>
+                    <ul>
+                        <li>Liigu <b>Project</b> vahekaardile → <b>Project Information</b> või <b>Task Information</b>.
+                        </li>
+                        <li>Vali <b>Calendar</b> rippmenüüst oma uus kalender.</li>
+                        <li>Muudatuste rakendamiseks klõpsa <b>OK</b>.</li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="4.png" alt="Kalendri määramine Task Information dialoogis">
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img-fullscreen">
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Juhend. Optimeeritud MS Projecti professionaalidele.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Lightbox Logic
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('img-fullscreen');
+        const closeBtn = document.querySelector('.close');
+
+        document.querySelectorAll('.step-image img').forEach(img => {
+            img.addEventListener('click', function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                document.body.style.overflow = "hidden"; // Prevent scrolling
+            });
+        });
+
+        const closeModal = () => {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        };
+
+        closeBtn.onclick = closeModal;
+        modal.onclick = (e) => { if (e.target === modal) closeModal(); };
+    </script>
+</body>
+
+</html>
