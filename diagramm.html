@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiirjuhend: Diagrammide loomine Microsoft Projectis</title>
+    <meta name="description"
+        content="Õpi looma visuaalseid aruandeid ja diagramme Microsoft Projectis. Visualiseeri oma projekti edukalt.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+</head>
+
+<body>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav>
+        <div class="container">
+            <a href="index.html">Uue kalendri loomine</a>
+            <a href="valem.html">Arvutusvälja lisamine</a>
+            <a href="diagramm.html" class="active">Diagrammide loomine</a>
+        </div>
+    </nav>
+
+    <header class="container reveal">
+        <span class="hero-subtitle">Samm-sammuline juhend</span>
+        <h1 id="main-title">Diagrammide loomine <br>MS Projectis</h1>
+        <p class="hero-desc">Visualiseeri oma projekti progressi ja andmeid Microsoft Projecti diagrammide abil.</p>
+    </header>
+
+    <main class="container">
+        <div class="steps-grid">
+            <!-- Step 1 -->
+            <article class="step-card reveal delay-1" id="step-1">
+                <span class="step-number">01</span>
+                <h3><i class="fa-solid fa-file-invoice"></i> Ava Report vahekaart</h3>
+                <div class="step-content">
+                    <p>Liigu aruannete vaatesse, et leida sobiv visualiseerimine:</p>
+                    <ul>
+                        <li>Vali peamenüüst vahekaart <b>Report</b>.</li>
+                        <li>Sealt leiad erinevad aruannete grupid nagu Dashboards, Costs jne.</li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="images/diagramm/1.png" alt="Report vahekaart ja aruannete grupid">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 2 -->
+            <article class="step-card reveal delay-2" id="step-2">
+                <span class="step-number">02</span>
+                <h3><i class="fa-solid fa-chart-pie"></i> Vali aruande tüüp</h3>
+                <div class="step-content">
+                    <p>Vali rippmenüüst sobiv valmisaruanne:</p>
+                    <ul>
+                        <li><b>Dashboards</b> alt leiad näiteks <b>Cost Overview</b> või <b>Project Overview</b>.</li>
+                        <li>Need annavad kiire ülevaate projekti seisust.</li>
+                    </ul>
+                    <div class="image-row">
+                        <div class="step-image">
+                            <img src="images/diagramm/2.png" alt="Cost Overview valimine">
+                        </div>
+                        <div class="step-image">
+                            <img src="images/diagramm/3.png" alt="Project Overview valimine">
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 3 -->
+            <article class="step-card reveal delay-3" id="step-3">
+                <span class="step-number">03</span>
+                <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Analüüsi andmeid</h3>
+                <div class="step-content">
+                    <p>Aruanne koondab automaatselt graafikud ja tabelid:</p>
+                    <ul>
+                        <li>Näed kulusid, ajakava täitmist ja %-määrasid visuaalselt.</li>
+                        <li>Graafikud aitavad tuvastada kriitilisi kohti projektis.</li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="images/diagramm/4.png" alt="Cost Overview aruande näidis">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 4 -->
+            <article class="step-card reveal delay-4" id="step-4">
+                <span class="step-number">04</span>
+                <h3><i class="fa-solid fa-filter"></i> Filtreerimine ja sisu</h3>
+                <div class="step-content">
+                    <p>Kasuta <b>Field List</b> paneeli andmete kohandamiseks:</p>
+                    <ul>
+                        <li>Vali, milliseid välju (nt <b>Baseline Cost</b>) soovid graafikul näha.</li>
+                        <li>Rakenda filtreid (nt ainult aktiivsed ülesanded), et hoida aruanne selgena.</li>
+                    </ul>
+                    <div class="image-row">
+                        <div class="step-image">
+                            <img src="images/diagramm/5.png" alt="Filtrite valimine Field List paneelis">
+                        </div>
+                        <div class="step-image">
+                            <img src="images/diagramm/6.png" alt="Väljade valimine (Baseline Cost)">
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Step 5 -->
+            <article class="step-card reveal delay-5" id="step-5">
+                <span class="step-number">05</span>
+                <h3><i class="fa-solid fa-spinner"></i> Jooksvad aruanded</h3>
+                <div class="step-content">
+                    <p>Kasuta <b>In Progress</b> aruandeid töö jälgimiseks:</p>
+                    <ul>
+                        <li>Leia kriitilised ülesanded (Critical Tasks) või hilinevad tööd.</li>
+                        <li>Aruanded uuenevad automaatselt, kui sisestad projekti andmeid.</li>
+                    </ul>
+                    <div class="step-image">
+                        <img src="images/diagramm/7.png" alt="In Progress aruannete valik">
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img-fullscreen">
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Nikita Litvinenko.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        const modal = document.getElementById('image-modal');
+        const modalImg = document.getElementById('img-fullscreen');
+        const closeBtn = document.querySelector('.close');
+
+        document.querySelectorAll('.step-image img').forEach(img => {
+            img.addEventListener('click', function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                document.body.style.overflow = "hidden";
+            });
+        });
+
+        const closeModal = () => {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        };
+
+        closeBtn.onclick = closeModal;
+        modal.onclick = (e) => { if (e.target === modal) closeModal(); };
+    </script>
+</body>
+
+</html>

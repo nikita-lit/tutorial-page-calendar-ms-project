@@ -272,6 +272,23 @@ nav a.active::after {
   cursor: zoom-in;
 }
 
+.image-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.image-row .step-image {
+  margin-top: 0;
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
+
 .step-content ul {
   list-style: none;
   margin-top: 1rem;
