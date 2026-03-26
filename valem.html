@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiirjuhend: Kuidas lisada uus kalender Microsoft Projectis</title>
+    <title>Kiirjuhend: Arvutusvälja lisamine Microsoft Projectis</title>
     <meta name="description"
-        content="Põhjalik juhend Microsoft Projectis uue kalendri loomiseks, kohandamiseks ja määramiseks. Järgi neid lihtsaid samme paremaks projektijuhtimiseks.">
+        content="Õpi looma arvutusvälju ja valemeid Microsoft Projectis. Järgi neid samme, et automatiseerida oma andmeid ja analüüsi.">
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Favicon (placeholder/standard) -->
     <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 </head>
 
 <body>
@@ -24,18 +22,16 @@
 
     <nav>
         <div class="container">
-            <a href="index.html" class="active">Uue kalendri loomine</a>
-            <a href="valem.html">Arvutusvälja lisamine</a>
+            <a href="index.html">Uue kalendri loomine</a>
+            <a href="valem.html" class="active">Arvutusvälja lisamine</a>
             <a href="diagramm.html">Diagrammide loomine</a>
         </div>
     </nav>
 
     <header class="container reveal">
         <span class="hero-subtitle">Samm-sammuline juhend</span>
-        <h1 id="main-title">Uue kalendri lisamine <br>MS Projectis</h1>
-        <p class="hero-desc">Tõhus projektijuhtimine algab õigest ajastamisest. Õpi looma oma projekti kalendrit vaid
-            mõne
-            minutiga.</p>
+        <h1 id="main-title">Arvutusvälja lisamine <br>MS Projectis</h1>
+        <p class="hero-desc">Automatiseeri oma andmed kasutades MS Projecti võimsaid arvutusvälju ja valemeid.</p>
     </header>
 
     <main class="container">
@@ -43,15 +39,15 @@
             <!-- Step 1 -->
             <article class="step-card reveal delay-1" id="step-1">
                 <span class="step-number">01</span>
-                <h3><i class="fa-solid fa-gear"></i> Juurdepääs seadetele</h3>
+                <h3><i class="fa-solid fa-list-check"></i> Vali Custom Fields</h3>
                 <div class="step-content">
-                    <p>Ava oma MS Project ja liigu projekti konfigureerimise juurde:</p>
+                    <p>Alusta kohandatud väljade konfigureerimist:</p>
                     <ul>
-                        <li>Mine <b>Project</b> vahekaardile peamisel ribal.</li>
-                        <li>Klõpsa <b>Properties</b> grupis nupule <b>Change Working Time</b>.</li>
+                        <li>Mine <b>Project</b> vahekaardile.</li>
+                        <li>Klõpsa nupule <b>Custom Fields</b>.</li>
                     </ul>
                     <div class="step-image">
-                        <img src="images/1.png" alt="MS Projecti lint, mis näitab nuppu Change Working Time">
+                        <img src="images/custom_field/1.png" alt="Custom Fields nupu asukoht lindi peal">
                     </div>
                 </div>
             </article>
@@ -59,17 +55,17 @@
             <!-- Step 2 -->
             <article class="step-card reveal delay-2" id="step-2">
                 <span class="step-number">02</span>
-                <h3><i class="fa-solid fa-plus-circle"></i> Loo uus kalender</h3>
+                <h3><i class="fa-solid fa-tags"></i> Vali taski tüüp</h3>
                 <div class="step-content">
-                    <p>Ära piirdu vaid vaikimisi seadetega; loo kalender, mis vastab just sinu vajadustele:</p>
+                    <p>Määra, millist tüüpi infot soovid arvutada:</p>
                     <ul>
-                        <li>Klõpsa nupule <b>Create New Calendar...</b>.</li>
-                        <li>Sisesta oma uuele kalendrile unikaalne nimi.</li>
-                        <li>Vali kas alustada nullist või valik <b>Make a copy of</b>, et kopeerida olemasolev kalender.
-                        </li>
+                        <li>Vali üleval <b>Task</b>.</li>
+                        <li>Vali <b>Type</b> alt <b>Cost</b>.</li>
+                        <li>Vali loendist <b>Cost1</b>, klõpsa <b>Rename...</b> ning sisesta uueks nimeks <b>Hind</b>
+                            (see on vaid näide).</li>
                     </ul>
                     <div class="step-image">
-                        <img src="images/2.png" alt="Create New Base Calendar dialoog">
+                        <img src="images/custom_field/2.png" alt="Välja valimine ja ümbernimetamine">
                     </div>
                 </div>
             </article>
@@ -77,16 +73,16 @@
             <!-- Step 3 -->
             <article class="step-card reveal delay-3" id="step-3">
                 <span class="step-number">03</span>
-                <h3><i class="fa-solid fa-umbrella-beach"></i> Lisa erandid</h3>
+                <h3><i class="fa-solid fa-calculator"></i> Sisesta valem</h3>
                 <div class="step-content">
-                    <p>Arvesta pühade, hooldustööde või muude eriliste puhkepäevadega:</p>
+                    <p>Defineeri matemaatiline seos:</p>
                     <ul>
-                        <li>Vali vahekaart <b>Exceptions</b>.</li>
-                        <li>Sisesta puhkuse nimi (nt "Puhkuste aeg").</li>
-                        <li>Vali perioodi algus- (<b>Start</b>) ja lõppkuupäev (<b>Finish</b>).</li>
+                        <li>Vali järgmine väli (Cost2), pane nimeks <b>Allahindlus</b> ja klõpsa <b>Formula...</b>.</li>
+                        <li>Sisesta valem: <code>[Hind] * 0.1</code> (või kasuta enda loodud välja nime).</li>
+                        <li>Klõpsa <b>OK</b>, et arvutus kinnitada.</li>
                     </ul>
                     <div class="step-image">
-                        <img src="images/3.png" alt="Exceptions ja tööaja üksikasjad">
+                        <img src="images/custom_field/3.png" alt="Valemi sisestamise aken">
                     </div>
                 </div>
             </article>
@@ -94,17 +90,18 @@
             <!-- Step 4 -->
             <article class="step-card reveal delay-4" id="step-4">
                 <span class="step-number">04</span>
-                <h3><i class="fa-solid fa-check-double"></i> Lõplik määramine</h3>
+                <h3><i class="fa-solid fa-eye"></i> Kuva tulemus</h3>
                 <div class="step-content">
-                    <p>Ühenda oma uus kalender projekti ülesannete ja ressurssidega:</p>
+                    <p>Lisa uus väli oma tabeli vaatesse:</p>
                     <ul>
-                        <li>Liigu <b>Project</b> vahekaardile → <b>Project Information</b> või <b>Task Information</b>.
-                        </li>
-                        <li>Vali <b>Calendar</b> rippmenüüst oma uus kalender.</li>
-                        <li>Muudatuste rakendamiseks klõpsa <b>OK</b>.</li>
+                        <li>Paremklõps tabeli päisel ja vali <b>Add New Column</b>.</li>
+                        <li>Lisa loendist nii <b>Hind</b> kui ka <b>Allahindlus</b>.</li>
                     </ul>
                     <div class="step-image">
-                        <img src="images/4.png" alt="Kalendri määramine Task Information dialoogis">
+                        <img src="images/custom_field/4.png" alt="Uue veeru lisamine">
+                    </div>
+                    <div class="step-image">
+                        <img src="images/custom_field/5.png" alt="Arvutusväljade tulemused tabelis">
                     </div>
                 </div>
             </article>
@@ -134,7 +131,6 @@
 
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        // Lightbox Logic
         const modal = document.getElementById('image-modal');
         const modalImg = document.getElementById('img-fullscreen');
         const closeBtn = document.querySelector('.close');
@@ -143,7 +139,7 @@
             img.addEventListener('click', function () {
                 modal.style.display = "block";
                 modalImg.src = this.src;
-                document.body.style.overflow = "hidden"; // Prevent scrolling
+                document.body.style.overflow = "hidden";
             });
         });
 
