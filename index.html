@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiirjuhend: Kuidas lisada uus kalender Microsoft Projectis</title>
+    <title>Kiirjuhend: Kuidas lisada uus kalender ProjectLibre's</title>
     <meta name="description"
-        content="Põhjalik juhend Microsoft Projectis uue kalendri loomiseks, kohandamiseks ja määramiseks. Järgi neid lihtsaid samme paremaks projektijuhtimiseks.">
+        content="Põhjalik juhend ProjectLibre's uue kalendri loomiseks, kohandamiseks ja määramiseks. Järgi neid lihtsaid samme paremaks projektijuhtimiseks.">
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -31,10 +31,9 @@
 
     <header class="container reveal">
         <span class="hero-subtitle">Samm-sammuline juhend</span>
-        <h1 id="main-title">Uue kalendri lisamine <br>MS Projectis</h1>
-        <p class="hero-desc">Tõhus projektijuhtimine algab õigest ajastamisest. Õpi looma oma projekti kalendrit vaid
-            mõne
-            minutiga.</p>
+        <h1 id="main-title">Uue kalendri lisamine <br>ProjectLibre's</h1>
+        <p class="hero-desc">Tõhus projektijuhtimine algab õigest ajastamisest. Õpi looma oma projekti kalendrit
+            ProjectLibre's vaid mõne minutiga.</p>
     </header>
 
     <main class="container">
@@ -42,15 +41,17 @@
             <!-- Step 1 -->
             <article class="step-card reveal delay-1" id="step-1">
                 <span class="step-number">01</span>
-                <h3><i class="fa-solid fa-gear"></i> Juurdepääs seadetele</h3>
+                <h3><i class="fa-solid fa-folder-open"></i> Ava kalendri seaded</h3>
                 <div class="step-content">
-                    <p>Ava oma MS Project ja liigu projekti konfigureerimise juurde:</p>
+                    <p>Ava oma ProjectLibre ja liigu kalendri seadete juurde:</p>
                     <ul>
-                        <li>Mine <b>Project</b> vahekaardile peamisel ribal.</li>
-                        <li>Klõpsa <b>Properties</b> grupis nupule <b>Change Working Time</b>.</li>
+                        <li>Mine peamenüüs <b>File</b> vahekaardile.</li>
+                        <li>Klõpsa rippmenüüst valikule <b>Calendar</b>.</li>
+                        <li>Avaneb <b>Change Working Calendar</b> dialoogiaken.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/1.png" alt="MS Projecti lint, mis näitab nuppu Change Working Time">
+                        <img src="images/1.png">
                     </div>
                 </div>
             </article>
@@ -60,15 +61,17 @@
                 <span class="step-number">02</span>
                 <h3><i class="fa-solid fa-plus-circle"></i> Loo uus kalender</h3>
                 <div class="step-content">
-                    <p>Ära piirdu vaid vaikimisi seadetega; loo kalender, mis vastab just sinu vajadustele:</p>
+                    <p>Loo kalender, mis vastab just sinu projekti vajadustele:</p>
                     <ul>
-                        <li>Klõpsa nupule <b>Create New Calendar...</b>.</li>
+                        <li>Klõpsa dialoogiakna allosas nupule <b>New</b>.</li>
                         <li>Sisesta oma uuele kalendrile unikaalne nimi.</li>
-                        <li>Vali kas alustada nullist või valik <b>Make a copy of</b>, et kopeerida olemasolev kalender.
-                        </li>
+                        <li>Vali <b>Create new base calendar</b> (uus tühi kalender) või <b>Make a copy of</b>, et
+                            kopeerida olemasolev kalender (nt Standard).</li>
+                        <li>Klõpsa <b>OK</b> uue kalendri loomiseks.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/2.png" alt="Create New Base Calendar dialoog">
+                        <img src="images/2.png">
                     </div>
                 </div>
             </article>
@@ -76,16 +79,22 @@
             <!-- Step 3 -->
             <article class="step-card reveal delay-3" id="step-3">
                 <span class="step-number">03</span>
-                <h3><i class="fa-solid fa-umbrella-beach"></i> Lisa erandid</h3>
+                <h3><i class="fa-solid fa-clock"></i> Kohanda tööaega</h3>
                 <div class="step-content">
-                    <p>Arvesta pühade, hooldustööde või muude eriliste puhkepäevadega:</p>
+                    <p>Sea oma kalendri tööajad ja puhkepäevad:</p>
                     <ul>
-                        <li>Vali vahekaart <b>Exceptions</b>.</li>
-                        <li>Sisesta puhkuse nimi (nt "Puhkuste aeg").</li>
-                        <li>Vali perioodi algus- (<b>Start</b>) ja lõppkuupäev (<b>Finish</b>).</li>
+                        <li>Vali kalendriruudustikus soovitud päev(ad) — hoia <b>Ctrl</b> all mitme päeva
+                            valimiseks.</li>
+                        <li>Terve nädalapäeva (nt kõik reedeid) valimiseks klõpsa veeru päisele.</li>
+                        <li>Vali <b>Non-default working time</b> ja sisesta kohandatud tööajad (<b>From</b> ja
+                            <b>To</b>).</li>
+                        <li>Pühade ja puhkepäevade korral vali <b>Non-working time</b>.</li>
+                        <li><b>Oluline:</b> klõpsa nupule <b>Options</b> ja kontrolli, et tunnid päevas,
+                            nädalas ja päevad kuus kattuksid sinu kalendri seadistusega.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/3.png" alt="Exceptions ja tööaja üksikasjad">
+                        <img src="images/3.png">
                     </div>
                 </div>
             </article>
@@ -93,17 +102,29 @@
             <!-- Step 4 -->
             <article class="step-card reveal delay-4" id="step-4">
                 <span class="step-number">04</span>
-                <h3><i class="fa-solid fa-check-double"></i> Lõplik määramine</h3>
+                <h3><i class="fa-solid fa-check-double"></i> Määra kalender projektile</h3>
                 <div class="step-content">
-                    <p>Ühenda oma uus kalender projekti ülesannete ja ressurssidega:</p>
+                    <p>Ühenda oma uus kalender projekti, ülesannete või ressurssidega:</p>
                     <ul>
-                        <li>Liigu <b>Project</b> vahekaardile → <b>Project Information</b> või <b>Task Information</b>.
-                        </li>
-                        <li>Vali <b>Calendar</b> rippmenüüst oma uus kalender.</li>
-                        <li>Muudatuste rakendamiseks klõpsa <b>OK</b>.</li>
+                        <li><b>Kogu projektile:</b> mine <b>File</b> → <b>Information</b>, vali <b>General</b>
+                            vahekaart ja sea <b>Base Calendar</b> väljal oma uus kalender.</li>
+                        <li><b>Konkreetsele ressursile:</b> ava ressursi info topeltklõpsuga ja muuda <b>Base
+                                Calendar</b> valikut.</li>
+                        <li><b>Konkreetsele ülesandele:</b> topeltklõpsa ülesandel, mine <b>Advanced</b> vahekaardile
+                            ja vali <b>Calendar</b> rippmenüüst oma kalender.</li>
+                        <li>Klõpsa <b>OK</b> muudatuste rakendamiseks.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/4.png" alt="Kalendri määramine Task Information dialoogis">
+                        <img src="images/4.png">
+                    </div>                    
+                    
+                    <div class="step-image">
+                        <img src="images/5.png">
+                    </div>                    
+                    
+                    <div class="step-image">
+                        <img src="images/6.png">
                     </div>
                 </div>
             </article>
