@@ -22,6 +22,7 @@ Projekti raames on arendatud veebileht, mis selgitab samm-sammult ProjectLibre [
 ---
 
 ## Tehtud tööd
+
 Allpool on toodud ProjectLibre haru raames teostatud ülesanded:
 
 ### Lõpetatud ülesanded
@@ -67,6 +68,7 @@ Siin on näide ProjectLibre kalendri seadetest:
 ## Lingid ja viited
 - [ProjectLibre ametlik koduleht](https://www.projectlibre.com/)
 - [ProjectLibre Download](https://sourceforge.net/projects/projectlibre/)
+- [GitHub Pages Docs](https://docs.github.com/en/pages)
 
 > [!TIP]
 > ProjectLibre'i kasutades kasuta paremklõpsu tabeli päisel, et kiiresti vahetada vaateid või lisada veerge.
