@@ -66,6 +66,15 @@ Siin on näide ProjectLibre kalendri seadetest:
 
 ---
 
+## Koodi näide
+Projekti kloonimiseks ja kohalikuks kasutamiseks kasuta järgnevat käsku:
+
+```bash
+git clone https://github.com/nikita-lit/tutorial-page-calendar-ms-project.git
+```
+
+---
+
 ## Lingid ja viited
 - [ProjectLibre ametlik koduleht](https://www.projectlibre.com/)
 - [ProjectLibre Download](https://sourceforge.net/projects/projectlibre/)
