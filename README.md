@@ -22,6 +22,9 @@ Projekti raames valmis kaasaegse disainiga veebileht, mis on:
 ---
 
 ## Tehtud tööd
+
+<img width="1599" height="864" alt="image" src="https://github.com/user-attachments/assets/ba11068a-e886-4cf7-baf7-1ceb4fb72328" />
+
 Allpool on toodud nimekiri projektis teostatud ülesannetest:
 
 ### Lõpetatud ülesanded
