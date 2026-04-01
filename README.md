@@ -27,9 +27,7 @@ Allpool on toodud ProjectLibre haru raames teostatud ülesanded:
 - [x] **Diagrammide loomise juhend**: `diagramm.html` sisu (Gantt, WBS, Network diagrammid).
 - [x] **Interaktiivne menüü**: Navigeerimine ainult ProjectLibre asjakohaste lehtede vahel.
 - [x] **Pildid**: Kõik ekraanitõmmised on teostatud ProjectLibre tarkvara tööaknast.
-
-### Eemaldatud / Ei kuulu sellesse harusse
-- [x] `valem.html` on eemaldatud (kuna ProjectLibre's on arvutusväljade loogika teistsugune või pole antud ülesande raames vajalik).
+- [x] `valem.html` on eemaldatud.
 
 ---
 
@@ -55,14 +53,14 @@ Allpool on toodud ProjectLibre haru raames teostatud ülesanded:
 ## Visuaalid
 Siin on näide ProjectLibre kalendri seadetest:
 
-![ProjectLibre kalender](images/1.png)
+![ProjectLibre kalender](images/3.png)
 *Joonis 1: ProjectLibre "Change Working Calendar" aken.*
 
 ---
 
 ## Lingid ja viited
 - [ProjectLibre ametlik koduleht](https://www.projectlibre.com/)
-- [ProjectLibre Community](https://www.projectlibre.com/community)
+- [ProjectLibre Download](https://sourceforge.net/projects/projectlibre/)
 
 > [!IMPORTANT]
 > ProjectLibre's uut kalendrit luues veendu, et oled valinud õige "Base Calendar" (tavaliselt Standard), mille põhjal koopiat teha!
