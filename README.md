@@ -61,6 +61,7 @@ Allpool on toodud ProjectLibre haru raames teostatud ülesanded:
 Siin on näide ProjectLibre kalendri seadetest:
 
 ![ProjectLibre kalender](images/3.png)
+
 *Joonis 1: ProjectLibre "Change Working Calendar" aken.*
 
 ---
