@@ -10,6 +10,8 @@ See projekt on loodud eesmärgiga pakkuda kasutajatele selget ja visuaalset juhi
 3. [Kasutatud tehnoloogiad](#kasutatud-tehnoloogiad)
 4. [Lehekülgede struktuur](#lehekülgede-struktuur)
 5. [Visuaalid](#visuaalid)
+6. [Koodi näide](#koodi-näide)
+7. [Lingid ja viited](#lingid-ja-viited)
 
 ---
 
