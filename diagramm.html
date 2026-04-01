@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiirjuhend: Diagrammide loomine Microsoft Projectis</title>
+    <title>Kiirjuhend: Diagrammide loomine ProjectLibre's</title>
     <meta name="description"
-        content="Õpi looma visuaalseid aruandeid ja diagramme Microsoft Projectis. Visualiseeri oma projekti edukalt.">
+        content="Õpi looma Gantt diagramme, WBS skeeme ja võrgudiagramme ProjectLibre's. Visualiseeri oma projekti edukalt.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/svg+xml"
@@ -29,8 +29,9 @@
 
     <header class="container reveal">
         <span class="hero-subtitle">Samm-sammuline juhend</span>
-        <h1 id="main-title">Diagrammide loomine <br>MS Projectis</h1>
-        <p class="hero-desc">Visualiseeri oma projekti progressi ja andmeid Microsoft Projecti diagrammide abil.</p>
+        <h1 id="main-title">Diagrammide loomine <br>ProjectLibre's</h1>
+        <p class="hero-desc">Visualiseeri oma projekti progressi ja andmeid ProjectLibre diagrammide abil. Gantt
+            diagramm, WBS ja võrgudiagramm — kõik ühes kohas.</p>
     </header>
 
     <main class="container">
@@ -38,15 +39,24 @@
             <!-- Step 1 -->
             <article class="step-card reveal delay-1" id="step-1">
                 <span class="step-number">01</span>
-                <h3><i class="fa-solid fa-file-invoice"></i> Ava Report vahekaart</h3>
+                <h3><i class="fa-solid fa-chart-gantt"></i> Gantt diagramm</h3>
                 <div class="step-content">
-                    <p>Liigu aruannete vaatesse, et leida sobiv visualiseerimine:</p>
+                    <p>Gantt diagramm on projekti ajaplaan, kus ülesanded on esitatud horisontaalsete ribadena.</p>
                     <ul>
-                        <li>Vali peamenüüst vahekaart <b>Report</b>.</li>
-                        <li>Sealt leiad erinevad aruannete grupid nagu Dashboards, Costs jne.</li>
+                        <li><b>Sisestamine:</b> Sisesta ülesannete nimed, kestused ja alguskuupäevad vasakpoolsesse
+                            tabelisse.</li>
+                        <li><b>Visualiseerimine:</b> ProjectLibre loob automaatselt ribad paremale poole ajaskaalale.
+                        </li>
+                        <li><b>Navigeerimine:</b> Kasuta <b>Zoom In/Out</b> nuppe <b>Task</b> menüüs, et vaadet
+                            kohandada.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/diagramm/1.png" alt="Report vahekaart ja aruannete grupid">
+                        <img src="images/diagramm/1.png" alt="Gantt diagrammi vaade">
+                    </div>
+
+                    <div class="step-image">
+                        <img src="images/diagramm/2.png" alt="Gantt diagrammi vaade">
                     </div>
                 </div>
             </article>
@@ -54,20 +64,25 @@
             <!-- Step 2 -->
             <article class="step-card reveal delay-2" id="step-2">
                 <span class="step-number">02</span>
-                <h3><i class="fa-solid fa-chart-pie"></i> Vali aruande tüüp</h3>
+                <h3><i class="fa-solid fa-sitemap"></i> Ülesannete hierarhia (WBS)</h3>
                 <div class="step-content">
-                    <p>Vali rippmenüüst sobiv valmisaruanne:</p>
+                    <p>Tööjaotuse struktuur (WBS) aitab suurt projekti väiksemateks osadeks jagada.</p>
                     <ul>
-                        <li><b>Dashboards</b> alt leiad näiteks <b>Cost Overview</b> või <b>Project Overview</b>.</li>
-                        <li>Need annavad kiire ülevaate projekti seisust.</li>
+                        <li><b>Taandamine (Indent):</b> Vali ülesanded ja kasuta <b>Task</b> vahekaardil nuppu
+                            <b>Indent</b>, et muuta need alamülesanneteks.
+                        </li>
+                        <li><b>Koondülesanded:</b> Ülemised ülesanded muutuvad automaatselt koondülesanneteks (Summary
+                            Tasks), näidates kogukestust ja kulu.</li>
+                        <li><b>Visualiseerimine:</b> Mine <b>View</b> → <b>WBS</b>, et näha kogu projekti puukujulist
+                            struktuuri.</li>
                     </ul>
-                    <div class="image-row">
-                        <div class="step-image">
-                            <img src="images/diagramm/2.png" alt="Cost Overview valimine">
-                        </div>
-                        <div class="step-image">
-                            <img src="images/diagramm/3.png" alt="Project Overview valimine">
-                        </div>
+
+                    <div class="step-image">
+                        <img src="images/diagramm/3.png" alt="Indent">
+                    </div>
+
+                    <div class="step-image">
+                        <img src="images/diagramm/4.png" alt="WBS puudiagramm">
                     </div>
                 </div>
             </article>
@@ -75,15 +90,20 @@
             <!-- Step 3 -->
             <article class="step-card reveal delay-3" id="step-3">
                 <span class="step-number">03</span>
-                <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Analüüsi andmeid</h3>
+                <h3><i class="fa-solid fa-diagram-project"></i> Võrgudiagramm (Network)</h3>
                 <div class="step-content">
-                    <p>Aruanne koondab automaatselt graafikud ja tabelid:</p>
+                    <p>Võrgudiagramm näitab ülesannete loogilist järjekorda ja omavahelisi seoseid (PERTi vaade).</p>
                     <ul>
-                        <li>Näed kulusid, ajakava täitmist ja %-määrasid visuaalselt.</li>
-                        <li>Graafikud aitavad tuvastada kriitilisi kohti projektis.</li>
+                        <li><b>Seoste loomine:</b> Lohista Gantti vaates joon ühelt ribalt teisele või kasuta
+                            <b>Predecessor</b> veergu.
+                        </li>
+                        <li><b>Vooskeem:</b> Mine <b>View</b> → <b>Network</b>. See vaade aitab mõista ülesannete
+                            "voogu" ja sõltuvusi ilma ajaskaalata.</li>
+                        <li><b>Blokkide sisu:</b> Iga blokk näitab ülesande algust, lõppu, kestust ja vastutajat.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/diagramm/4.png" alt="Cost Overview aruande näidis">
+                        <img src="images/diagramm/5.png" alt="Võrgudiagrammi vaade">
                     </div>
                 </div>
             </article>
@@ -91,36 +111,47 @@
             <!-- Step 4 -->
             <article class="step-card reveal delay-4" id="step-4">
                 <span class="step-number">04</span>
-                <h3><i class="fa-solid fa-filter"></i> Filtreerimine ja sisu</h3>
+                <h3><i class="fa-solid fa-user-group"></i> Ressursside diagrammid</h3>
                 <div class="step-content">
-                    <p>Kasuta <b>Field List</b> paneeli andmete kohandamiseks:</p>
+                    <p>Ressursside haldamine aitab vältida töötajate ülekoormust ja visualiseerida tööjaotust.</p>
                     <ul>
-                        <li>Vali, milliseid välju (nt <b>Baseline Cost</b>) soovid graafikul näha.</li>
-                        <li>Rakenda filtreid (nt ainult aktiivsed ülesanded), et hoida aruanne selgena.</li>
+                        <li><b>Ressursside sisestamine:</b> Mine <b>View</b> → <b>Resources</b> ja sisesta nimed ja
+                            kulunormid.</li>
+                        <li><b>Histogramm:</b> Vali <b>View</b> vahekaardilt <b>Histogram</b>. See näitab valitud
+                            ressursi koormust ajas.</li>
+                        <li><b>Resource Usage:</b> Näitab täpselt, millistel ülesannetel iga ressurss töötab.</li>
                     </ul>
-                    <div class="image-row">
-                        <div class="step-image">
-                            <img src="images/diagramm/5.png" alt="Filtrite valimine Field List paneelis">
-                        </div>
-                        <div class="step-image">
-                            <img src="images/diagramm/6.png" alt="Väljade valimine (Baseline Cost)">
-                        </div>
+
+                    <div class="step-image">
+                        <img src="images/diagramm/6.png" alt="Ressursside diagrammi vaade">
+                    </div>
+
+                    <div class="step-image">
+                        <img src="images/diagramm/7.png" alt="Histogramm">
+                    </div>
+
+                    <div class="step-image">
+                        <img src="images/diagramm/8.png" alt="Resource Usage">
                     </div>
                 </div>
             </article>
 
             <!-- Step 5 -->
-            <article class="step-card reveal delay-5" id="step-5">
+            <article class="step-card reveal delay-1" id="step-5">
                 <span class="step-number">05</span>
-                <h3><i class="fa-solid fa-spinner"></i> Jooksvad aruanded</h3>
+                <h3><i class="fa-solid fa-file-pdf"></i> Eksportimine ja aruanded</h3>
                 <div class="step-content">
-                    <p>Kasuta <b>In Progress</b> aruandeid töö jälgimiseks:</p>
+                    <p>Diagramme saab jagada meeskonnaga PDF-i või paberi kujul.</p>
                     <ul>
-                        <li>Leia kriitilised ülesanded (Critical Tasks) või hilinevad tööd.</li>
-                        <li>Aruanded uuenevad automaatselt, kui sisestad projekti andmeid.</li>
+                        <li><b>Eelvaade:</b> Mine <b>File</b> → <b>Preview</b>. Siin saad kohandada paberi suurust
+                            (A4/A3) ja orientatsiooni.</li>
+                        <li><b>PDF Export:</b> Kasuta prindiaknas <b>PDF ekspordi</b> nuppu, et salvestada diagramm
+                            kvaliteetse failina.</li>
+                        <li><b>Andmete valik:</b> Enne trükkimist veendu, et kõik vajalikud veerud on nähtaval.</li>
                     </ul>
+
                     <div class="step-image">
-                        <img src="images/diagramm/7.png" alt="In Progress aruannete valik">
+                        <img src="images/diagramm/9.png" alt="Print Preview">
                     </div>
                 </div>
             </article>
