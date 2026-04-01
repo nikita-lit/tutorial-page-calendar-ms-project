@@ -23,8 +23,6 @@ Projekti raames valmis kaasaegse disainiga veebileht, mis on:
 
 ## Tehtud tööd
 
-<img width="1599" height="864" alt="image" src="https://github.com/user-attachments/assets/ba11068a-e886-4cf7-baf7-1ceb4fb72328" />
-
 Allpool on toodud nimekiri projektis teostatud ülesannetest:
 
 ### Lõpetatud ülesanded
@@ -68,7 +66,7 @@ Siin on näide ühest veebilehe osast:
 ---
 
 ## Lingid ja viited
-- [GitHub Pages Docs]([https://github.com/nikita-lit/tutorial-page-calendar-ms-project](https://docs.github.com/en/pages))
+- [GitHub Pages Docs](https://docs.github.com/en/pages)
 
 > [!TIP]
 > MS Projectis kalendrit luues veendu alati, et oled lisanud riiklikud pühad erandite (Exceptions) alla!
