@@ -19,6 +19,9 @@ Projekti raames valmis kaasaegse disainiga veebileht, mis on:
 - **Interaktiivne**: Sisaldab piltide suurendamise (lightbox) funktsiooni ja sujuvaid animatsioone.
 - **Kasutajasõbralik**: Selge navigeerimine ja loogiline ülesehitus.
 
+> [!NOTE]
+> Veebileht on optimeeritud Microsoft Project 2021 [^1] versiooni baasil loodud juhendite kuvamiseks, kuid sammud on sarnased ka teiste versioonidega.
+
 ---
 
 ## Tehtud tööd
@@ -33,6 +36,9 @@ Allpool on toodud nimekiri projektis teostatud ülesannetest:
 - [x] **Teksti genereerimine**: Sisu loomiseks on kasutatud AI abi (Gemini).
 - [x] **Oma pildid**: Kõik ekraanitõmmised on teostatud MS Projecti tarkvaras.
 - [x] **Navigeerimismenüü**: Ühtne ja funktsionaalne menüü kõikidel lehtedel.
+
+> [!WARNING]
+> Kui muudad faile käsitsi, veendu, et kõik pilditeed (images/) jääksid kehtivaks, muidu ei ilmu visuaalid lehel.
 
 ---
 
@@ -61,12 +67,20 @@ Allpool on toodud nimekiri projektis teostatud ülesannetest:
 Siin on näide ühest veebilehe osast:
 
 ![MS Projecti kalendri seaded](images/3.png)
+
 *Joonis 1: MS Projecti tööaja muutmise aken.*
 
 ---
 
 ## Lingid ja viited
+- [Projekti GitHubi repositoorium](https://github.com/nikita-lit/tutorial-page-calendar-ms-project)
+- [Microsoft Project ametlik koduleht](https://www.microsoft.com/en-us/microsoft-365/project/project-management-software)
 - [GitHub Pages Docs](https://docs.github.com/en/pages)
 
 > [!TIP]
 > MS Projectis kalendrit luues veendu alati, et oled lisanud riiklikud pühad erandite (Exceptions) alla!
+
+> [!IMPORTANT]
+> Enne muudatuste üleslaadimist testi veebilehte erinevate brauseritega (Chrome, Firefox, Safari).
+
+[^1]: MS Project 2021 on viimane versioon, mille põhjal ekraanitõmmised valmisid.
