@@ -72,15 +72,19 @@ Siin on näide ühest veebilehe osast:
 
 ---
 
+## Koodi näide
+Projekti kloonimiseks ja kohalikuks kasutamiseks kasuta järgnevat käsku:
+
+```bash
+git clone https://github.com/nikita-lit/tutorial-page-calendar-ms-project.git
+```
+
+---
+
 ## Lingid ja viited
-- [Projekti GitHubi repositoorium](https://github.com/nikita-lit/tutorial-page-calendar-ms-project)
-- [Microsoft Project ametlik koduleht](https://www.microsoft.com/en-us/microsoft-365/project/project-management-software)
 - [GitHub Pages Docs](https://docs.github.com/en/pages)
 
 > [!TIP]
 > MS Projectis kalendrit luues veendu alati, et oled lisanud riiklikud pühad erandite (Exceptions) alla!
-
-> [!IMPORTANT]
-> Enne muudatuste üleslaadimist testi veebilehte erinevate brauseritega (Chrome, Firefox, Safari).
 
 [^1]: MS Project 2021 on viimane versioon, mille põhjal ekraanitõmmised valmisid.
