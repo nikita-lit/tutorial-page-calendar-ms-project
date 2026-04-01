@@ -68,7 +68,7 @@ Siin on näide ühest veebilehe osast:
 ---
 
 ## Lingid ja viited
-- [Projekti GitHubi repo](https://github.com/nikita-lit/tutorial-page-calendar-ms-project)
+- [GitHub Pages Docs]([https://github.com/nikita-lit/tutorial-page-calendar-ms-project](https://docs.github.com/en/pages))
 
 > [!TIP]
 > MS Projectis kalendrit luues veendu alati, et oled lisanud riiklikud pühad erandite (Exceptions) alla!
