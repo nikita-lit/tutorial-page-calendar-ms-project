@@ -30,11 +30,11 @@ Allpool on toodud nimekiri projektis teostatud ülesannetest:
 
 ### Lõpetatud ülesanded
 - [x] **MS Projecti õpetuslehe loomine**: Üldise raamistiku ja struktuuri paikasättimine.
-- [] **Uue kalendri loomise juhend**: `index.html` sisu koostamine.
+- [ ] **Uue kalendri loomise juhend**: `index.html` sisu koostamine.
 - [x] **Arvutusvälja lisamise juhend**: `valem.html` sisu koostamine.
-- [] **Diagrammide loomise juhend**: `diagramm.html` sisu koostamine.
+- [ ] **Diagrammide loomise juhend**: `diagramm.html` sisu koostamine.
 - [x] **Teksti genereerimine**: Sisu loomiseks on kasutatud AI abi (Gemini).
-- [] **Oma pildid**: Kõik ekraanitõmmised on teostatud MS Projecti tarkvaras.
+- [ ] **Oma pildid**: Kõik ekraanitõmmised on teostatud MS Projecti tarkvaras.
 - [x] **Navigeerimismenüü**: Ühtne ja funktsionaalne menüü kõikidel lehtedel.
 
 > [!WARNING]
