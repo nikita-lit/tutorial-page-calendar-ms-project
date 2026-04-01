@@ -20,8 +20,6 @@ Projekti raames on arendatud veebileht, mis selgitab samm-sammult ProjectLibre p
 
 ## Tehtud tööd
 
-<img width="1599" height="864" alt="image" src="https://github.com/user-attachments/assets/ba11068a-e886-4cf7-baf7-1ceb4fb72328" />
-
 Allpool on toodud ProjectLibre haru raames teostatud ülesanded:
 
 ### Lõpetatud ülesanded
@@ -64,7 +62,7 @@ Siin on näide ProjectLibre kalendri seadetest:
 ## Lingid ja viited
 - [ProjectLibre ametlik koduleht](https://www.projectlibre.com/)
 - [ProjectLibre Download](https://sourceforge.net/projects/projectlibre/)
-- [GitHub Pages Docs]([https://github.com/nikita-lit/tutorial-page-calendar-ms-project](https://docs.github.com/en/pages))
+- [GitHub Pages Docs](https://docs.github.com/en/pages)
 
 > [!IMPORTANT]
 > ProjectLibre's uut kalendrit luues veendu, et oled valinud õige "Base Calendar" (tavaliselt Standard), mille põhjal koopiat teha!
